@@ -6,7 +6,7 @@ from sklearn.model_selection import  train_test_split
 from sklearn.preprocessing import StandardScaler
 
 #Load the dataset
-dataset = pd.read_csv('C:\Users\2026\Desktop\ML\DataSet\Social_Network_Ads.csv')
+dataset = pd.read_csv(r'C:\Users\2026\Desktop\ML\DataSet\Social_Network_Ads.csv')
 
 #Feature and target
 X=dataset.iloc[:,:-1].values
